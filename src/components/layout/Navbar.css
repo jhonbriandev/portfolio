@@ -1,0 +1,86 @@
+.navbar {
+  /* coloca el logo y los links en extremos opuestos, con el espacio distribuido automáticamente
+   entre ellos, sin esto, tendríamos que calcular márgenes manualmente. */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-md) var(--space-xl);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  /* el navbar se queda fijo en la parte superior al hacer scroll. */
+  position: sticky;
+  top: 0;
+  /* asegura que el navbar se dibuje encima de otras secciones al hacer scroll, no detrás. */
+  z-index: 100;
+}
+.navbar-logo {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  /* el botón hamburguesa está oculto por defecto, porque estamos diseñando "primero para escritorio */
+  display: none;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  font-size: 1.5rem;
+  /* indica visualmente que es clickeable */
+  cursor: pointer;
+}
+.navbar-links {
+  display: flex;
+  /* separa los links entre sí usando nuestra escala de espaciado, 
+  en vez de márgenes individuales por elemento. */
+  gap: var(--space-lg);
+  /* quita los puntos/bullets nativos del <ul> */
+  list-style: none;
+}
+
+.navbar-links a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  /* revierte el display: none que pusimos antes, pero solo dentro de esta media query(pantallas ≤768px)*/
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    /* hace que el menú desplegado "flote" justo debajo del navbar, 
+    sin empujar el contenido de la página hacia abajo cuando se abre */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    /*Usar el direccionamiento de columna*/
+    flex-direction: column;
+    background-color: var(--color-surface);
+    padding: var(--space-lg);
+    gap: var(--space-md);
+    border-bottom: 1px solid var(--color-border);
+
+    /* Oculto por defecto */
+    display: none;
+  }
+  /* Esto solo pasa cuando OpenMenu es true */
+  .navbar-links--abierto {
+    display: flex;
+  }
+}
+
+section {
+  scroll-margin-top: 70px; /* altura aproximada de tu navbar */
+}

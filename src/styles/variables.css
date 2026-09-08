@@ -1,0 +1,40 @@
+/* Se importan aquí porque este archivo se carga primero en toda la app */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap");
+
+/* root es un lugar global del documento
+cualquier variable definida aqui, estara disponible 
+en todo el CSS del proyecto, en cualquier archivo */
+:root {
+  /* Fondos */
+  --color-bg: #0b1120;
+  --color-surface: #131a2a;
+
+  /* Acentos */
+  --color-primary: #22d3ee;
+  --color-secondary: #34d399;
+
+  /* Texto */
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+
+  /* Bordes */
+  --color-border: #1e293b;
+
+  /* Tipografia */
+  --font-heading:
+    "Space Grotesk", sans-serif; /* sans serif al final como fallback(PLAN B) */
+  --font-body: "Inter", sans-serif;
+
+  /* Espaciado */
+  --space-xs: 0.25rem; /* 4px */
+  --space-sm: 0.5rem; /* 8px */
+  --space-md: 1rem; /* 16px */
+  --space-lg: 1.5rem; /* 24px */
+  --space-xl: 2.5rem; /* 40px */
+  --space-2xl: 4rem; /* 64px */
+
+  /* Bordes */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+}
