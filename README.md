@@ -3,12 +3,12 @@
 Portafolio profesional construido con React + Vite, mostrando mis proyectos
 de formación como desarrollador Full Stack (Django + React).
 
-🔗 **Demo en vivo:** https://tu-portafolio.vercel.app
+🔗 **Demo en vivo:** https://portfolio-kappa-neon-66.vercel.app/
 
 ## Capturas
 
 ![Vista Hero](./docs/screenshot-hero.png)
-![Vista Proyectos](./docs/screenshot-proyectos.png)
+![Vista Proyectos](./docs/projects-realizated.jpeg)
 
 ## Stack técnico
 
@@ -35,8 +35,8 @@ npm run dev
 
 - [Sistema de Triage de Tickets con IA](https://github.com/jhonbriandev/triage-ai)
 - [Blog con React + API REST](https://github.com/jhonbriandev/my-blog)
-- [Blog con Django](https://github.com/jhonbriandev/django-blog)
+- [Blog con Django](https://github.com/jhonbriandev/my-blog)
 
 ## Contacto
 
-📧 tu-correo@gmail.com | [LinkedIn](https://linkedin.com/in/jhon-brian-ac)
+📧 jhonbriandev@gmail.com| [LinkedIn](https://linkedin.com/in/jhon-brian-ac)
