@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useTheme } from "../../hooks/useTheme";
 import "./Navbar.css";
 
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
+  const { theme, toggleTheme } = useTheme();
 
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
@@ -13,17 +15,28 @@ function Navbar() {
       <a href="#hero" className="navbar-logo">
         Jhon.dev
       </a>
+      <div className="navbar-right">
+        <button
+          className="theme-toggle"
+          onClick={toggleTheme}
+          aria-label={
+            theme === "dark" ? "Activar modo claro" : "Activar modo oscuro"
+          }
+        >
+          {theme === "dark" ? "☀️" : "🌙"}
+        </button>
 
-      <button
-        className="navbar-toggle"
-        onClick={toggleMenu}
-        aria-label="Abrir menú de navegación"
-        aria-expanded={openMenu}
-      >
-        ☰
-      </button>
+        <button
+          className="navbar-toggle"
+          onClick={toggleMenu}
+          aria-label="Abrir menú de navegación"
+          aria-expanded={openMenu}
+        >
+          ☰
+        </button>
+      </div>
       {/*Si la condicion es verdadera usaremos navbar-links navbar-links-abierto sino solo usaremos
-     navbar-links */}
+      navbar-links */}
       <ul className={`navbar-links ${openMenu ? "navbar-links--abierto" : ""}`}>
         <li>
           {/*Al hacer click sobre el vinculo, el setOpenMenu se cambia a false

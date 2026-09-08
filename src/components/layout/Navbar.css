@@ -20,7 +20,6 @@
   color: var(--color-primary);
   text-decoration: none;
 }
-
 .navbar-toggle {
   /* el botón hamburguesa está oculto por defecto, porque estamos diseñando "primero para escritorio */
   display: none;
@@ -39,7 +38,6 @@
   /* quita los puntos/bullets nativos del <ul> */
   list-style: none;
 }
-
 .navbar-links a {
   color: var(--color-text-muted);
   text-decoration: none;
@@ -47,15 +45,33 @@
   font-weight: 500;
   transition: color 0.2s ease;
 }
-
 .navbar-links a:hover {
   color: var(--color-primary);
+}
+section {
+  scroll-margin-top: 70px; /* altura aproximada de tu navbar */
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-left: auto;
+}
+.theme-toggle {
+  display: block; /* siempre visible, en cualquier tamaño de pantalla */
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1;
 }
 
 @media (max-width: 768px) {
   /* revierte el display: none que pusimos antes, pero solo dentro de esta media query(pantallas ≤768px)*/
   .navbar-toggle {
-    display: block;
+    display: block; /* visible solo en móvil */
   }
 
   .navbar-links {
@@ -79,8 +95,4 @@
   .navbar-links--abierto {
     display: flex;
   }
-}
-
-section {
-  scroll-margin-top: 70px; /* altura aproximada de tu navbar */
 }
