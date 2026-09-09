@@ -15,10 +15,10 @@ function Hero() {
           </p>
 
           <div className="hero-actions">
-            <a href="#proyectos" className="btn btn-primary">
+            <a href="#projects" className="btn btn-primary">
               Ver proyectos
             </a>
-            <a href="#contacto" className="btn btn-secondary">
+            <a href="#contact" className="btn btn-secondary">
               Contactarme
             </a>
           </div>
