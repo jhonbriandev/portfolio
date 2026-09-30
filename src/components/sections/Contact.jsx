@@ -12,8 +12,8 @@ function Contact() {
       </p>
 
       <div className="contact-links">
-        <a href="mailto:tu-correo@gmail.com" className="btn btn-primary">
-          tu-correo@gmail.com
+        <a href="mailto:jhonbriandev1@gmail.com" className="btn btn-primary">
+          jhonbriandev1@gmail.com
         </a>
 
         <div className="contact-socials">
