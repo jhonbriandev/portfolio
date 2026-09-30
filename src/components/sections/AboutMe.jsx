@@ -6,7 +6,7 @@ function AboutMe() {
       <div className="about-grid">
         <div className="about-image-wrapper">
           <img
-            src="/public/images/devallday.jpg"
+            src="/images/devallday.jpg"
             alt="Foto de perfil de Jhon"
             className="about-image"
           />

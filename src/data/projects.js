@@ -5,7 +5,7 @@ export const projectsData = [
     description:
       "Plataforma de gestión de tickets de soporte con clasificación automática mediante IA. Roles diferenciados para clientes, agentes y administradores, con sugerencias de categorización generadas por un modelo externo.",
     stack: ["Django", "DRF", "React", "PostgreSQL", "JWT"],
-    image: "/public/images/triage-ai.png",
+    image: "/images/triage-ai.png",
     repoUrl: "https://github.com/jhonbriandev/triage-ai",
     demoUrl: "https://triage-ai-beta.vercel.app/",
   },
@@ -15,7 +15,7 @@ export const projectsData = [
     description:
       "Frontend en React que consume una API REST propia construida en Django, con autenticación JWT, gestión de publicaciones propias y manejo de estados de carga, error y éxito en toda la interfaz.",
     stack: ["React", "JWT", "Fetch API", "React Hook Form"],
-    image: "/public/images/api.png",
+    image: "/images/api.png",
     repoUrl: "https://github.com/jhonbriandev/react-blog",
     demoUrl: "",
   },
@@ -25,7 +25,7 @@ export const projectsData = [
     description:
       "Aplicación de blog completa con autenticación, permisos por rol, panel de moderación, consultas optimizadas y una suite de más de 40 tests automatizados con factories.",
     stack: ["Django", "DRF", "PostgreSQL", "pytest"],
-    image: "/public/images/blog-django.png",
+    image: "/images/blog-django.png",
     repoUrl: "https://github.com/jhonbriandev/my-blog",
     demoUrl: "https://my-blog-a48b.onrender.com/",
   },
