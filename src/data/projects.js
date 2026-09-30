@@ -27,6 +27,6 @@ export const projectsData = [
     stack: ["Django", "DRF", "PostgreSQL", "pytest"],
     image: "/src/assets/images/proyectos/django-blog.jpg",
     repoUrl: "https://github.com/jhonbriandev/my-blog",
-    demoUrl: "https://my-blog-z6ya.onrender.com/",
+    demoUrl: "https://my-blog-a48b.onrender.com/",
   },
 ];
