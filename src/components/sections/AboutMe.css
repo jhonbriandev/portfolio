@@ -1,5 +1,5 @@
 .about {
-  padding: var(--space-2xl) var(--space-lg);
+  padding: var(--section-padding) var(--space-lg);
 }
 
 .about-grid {

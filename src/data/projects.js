@@ -29,4 +29,14 @@ export const projectsData = [
     repoUrl: "https://github.com/jhonbriandev/my-blog",
     demoUrl: "https://my-blog-a48b.onrender.com/",
   },
+  {
+    id: "pharma-pos",
+    title: "Punto de Venta de Farmacia",
+    description:
+      "Este es el primer aplicativo cuya arquitectura y reglas de negocio fueron diseñadas por mí y cuyo código fue desarrollado íntegramente con OpenCode. Implementa funcionalidades de autenticación, gestión de roles y permisos, punto de venta, inventario y dashboard, y cuenta con más de 80 pruebas automatizadas basadas en factories.",
+    stack: ["Django", "DRF", "PostgreSQL", "Javascript"],
+    image: "/images/pharma-pos.png",
+    repoUrl: "https://github.com/jhonbriandev/pharmacy-pos",
+    demoUrl: "https://pharmacy-pos-gamma.vercel.app/",
+  },
 ];

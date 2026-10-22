@@ -31,7 +31,7 @@ function AboutMe() {
 
           <div className="about-stats">
             <div className="about-stat">
-              <span className="about-stat-number">3</span>
+              <span className="about-stat-number">4</span>
               <span className="about-stat-label">Proyectos completos</span>
             </div>
             <div className="about-stat">

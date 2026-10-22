@@ -1,5 +1,5 @@
 .skills {
-  padding: var(--space-2xl) var(--space-lg);
+  padding: var(--section-padding) var(--space-lg);
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -7,17 +7,6 @@
 .skills-groups {
   display: flex;
   /* apila los 3 grupos de categorías uno debajo */
-  flex-direction: column;
-  gap: var(--space-xl);
-}
-.skills {
-  padding: var(--space-2xl) var(--space-lg);
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.skills-groups {
-  display: flex;
   flex-direction: column;
   gap: var(--space-xl);
 }
