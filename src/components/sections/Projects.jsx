@@ -1,5 +1,5 @@
 import ProjectCard from "../ui/ProjectCard";
-import { projectsData } from "../../data/Projects";
+import { projectsData } from "../../data/projects";
 import "./Projects.css";
 
 function Projects() {
