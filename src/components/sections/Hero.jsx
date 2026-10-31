@@ -22,7 +22,7 @@ function Hero() {
             Ver proyectos
           </a>
           <a
-            href="/CV_PRACTICAS_2026.pdf"
+            href="/CV_DEV_2026.pdf"
             download="CV_JHON.pdf"
             className="btn btn-secondary"
           >

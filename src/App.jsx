@@ -24,9 +24,7 @@ function App() {
           fontFamily: "var(--font-heading)",
           color: "var(--color-primary)",
         }}
-      >
-        Prueba
-      </h1>
+      ></h1>
 
       <Navbar />
       <Hero></Hero>

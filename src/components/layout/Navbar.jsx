@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <a href="#hero" className="navbar-logo">
-        Jhon.dev
+        <img src="/images/logo.png" className="navbar-logo"></img>
       </a>
       <div className="navbar-right">
         <button

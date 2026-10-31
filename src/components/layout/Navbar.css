@@ -17,6 +17,7 @@
   font-family: var(--font-heading);
   font-size: 1.25rem;
   font-weight: 700;
+  width: 20%;
   color: var(--color-primary);
   text-decoration: none;
 }
